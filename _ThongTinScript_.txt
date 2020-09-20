@@ -1,0 +1,78 @@
+﻿            ===============================================================================================
+           | # Giới thiệu:                                                                                 |
+           |                                                                                               |
+           | - Script kích hoạt bản quyền kỹ thuật số Windows 10.                                          |
+           |   Kích hoạt Windows 10 VĨNH VIỄN với giấy phép kỹ thuật số.                                   |
+           |   [Tất cả các file sạch 100% khi kiểm tra bằng virus total]                                   |
+           |                                                                                               |
+            ===============================================================================================
+           | # Chú ý:                                                                                      |
+           |                                                                                               |
+           | - Script này không cài đặt bất kỳ tệp nào trong hệ thống của bạn.                             |
+           |                                                                                               |
+           | - Để kích hoạt thành công, thì dịch vụ Windows Update và Internet phải được bật.              |
+           |                                                                                               |
+           | - Khi kích hoạt sử dụng VPN, các công cụ chống gián điệp, chỉnh sửa hosts và tường lửa        |
+           |   có thể chặn máy chủ kích hoạt của Microsoft gây ra lỗi khi kích hoạt.                       |
+           |                                                                                               |
+           | - Trong quá trình kích hoat bạn có thể thấy lỗi 'Blocked key'.                                |
+           |   Nguyên nhân gây ra những lỗi này có thể do trước đó bạn sử dụng phần mềm để Crack win,      |
+           |   sử dụng KMS, bản ghost win đã tinh chỉnh, hoặc một trong các mục đã đề cập ở trên.          |
+           |                                                                                               |
+           | - Sau khi kích hoạt, Trên cung phần cứng, nếu bạn cài đặt lại Windows 10 đúng phiên bản đó,   |
+           |   hệ thống sẽ tự động kích hoạt nhưng điều này chỉ áp dụng cho bộ cài Retail của Windows 10   |
+           |   (tức file iso Consumer: S/SL/Home/Pro/Edu).                                                 |
+           |   Nếu bạn đang sử dụng bộ cài Volume(VL) của Windows 10 (tức file iso Business: Pro/Enter/Edu)|
+           |   Khi cài lại hoặc update Win bị mất bản quyền thì bạn sẽ phải sử dụng lựa chọn               |
+           |   "[4] Chèn Key mặc định" Sau đó Windows 10 của bạn sẽ tự động kích hoạt lại.                 |
+           |   (Bạn có thể chèn key theo cách thủ công hoặc sử dụng lựa chọn [4] tùy ý. Điều này giúp bạn  |
+           |    tiết kiệm thời gian tránh phải kích hoạt lại).                                             |
+           |                                                                                               |
+            ===============================================================================================
+           | # Tạo file iso Windows 10 kích hoạt tự động:                                                  |
+           |                                                                                               |
+           | - Để tạo file iso kích hoạt tự động hãy thực hiện thao tác sau:                               |
+           |   Sử dụng tùy chọn [6] của Script và trích xuất thư mục $OEM$ ra Desktop.                     |
+           |   Tiếp theo sao chép thư mục $OEM$ này vào thư mục "sources" trong file iso gốc.              |
+           |   Theo đường dẫn. iso/usb:\sources\$OEM$\                                                     |
+           |   Cuối cùng sử dụng iso/usb này để cài đặt Windows 10 và nó sẽ tự động kích hoạt khi          |
+           |   bạn có kết nối Internet.                                                                    |
+           |                                                                                               |
+            ===============================================================================================
+           | # Các phiên bản Windows 10 được hỗ trợ:                                                       |
+           |                                                                                               |
+           | Home(Core) - Home N                                                                           |
+           | CoreSingleLanguage - CoreSingleLanguage N                                                     |
+           | Professional - Professional N                                                                 |
+           | ProfessionalEducation - ProfessionalEducation N                                               |
+           | ProfessionalWorkstation - ProfessionalWorkstation N                                           |
+           | Education - Education N                                                                       |
+           | Enterprise - Enterprise N                                                                     |
+           | EnterpriseS(LTSB) 2016 - EnterpriseS(LTSB) 2016 N                                             |
+           |                                                                                               |
+           | (Trình kích hoạt này không kích hoạt Windows 10 version 1507)                                 |
+           |                                                                                               |
+            ===============================================================================================
+           | # Tác giả:                                                                                    |
+           |                                                                                               |
+           | s1ave77       - Tác giả gốc Phương pháp kích hoạt giấy phép kỹ thuật số hwid mk3.             |
+           |                                                                                               |
+           | mephistooo2   - Đóng gói lại phiên bản cmd của s1ave77.                                       |
+           |                                                                                               |
+           | WindowsAddict   Tạo phiên bản sạch sẽ, cải tiến,                                              |
+           | Savio         - Cung cấp hỗ trợ tuyệt vời trong chỉnh sửa, dịch                               |
+           | rpo             và cải tiến trong script này.                                                 |
+           |                                                                                               |
+            ===============================================================================================
+           | # Link:                                                                                       |
+           |                                                                                               |
+           | - Scrip kích hoạt Win 10: http://bit.ly/KichHoatBanQuyenVinhVien                              |
+           | - Sao lưu bản quyền win và Office: http://bit.ly/SaoLuuBanQuyen                               |
+           | - Link tải Win và Office các phiên bản: http://bit.ly/LinkTaiISO                              |
+           | - Link tải Win10 Enterprise LTSB 2016 x64: http://bit.ly/enterpriseLTSB2016x64                |
+           | - Link tải Win10 Enterprise LTSB 2016 x32: http://bit.ly/enterpriseLTSB2016x32                |
+           | - Link tải Win10 Enterprise LTSB 2015 x64: http://bit.ly/LTSB2015x64                          |
+           | - Link tải Win10 Enterprise LTSB 2015 x64: http://bit.ly/LTSB2015x32                          |
+           | - Trang GetLink Fshare: http://bit.ly/GetLinkFshare                                           |
+           |                                                                                               |
+            ===============================================================================================
